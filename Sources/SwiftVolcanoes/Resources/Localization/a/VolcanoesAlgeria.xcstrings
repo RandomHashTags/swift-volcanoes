@@ -1,0 +1,72 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "atakor" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atakor"
+          }
+        }
+      }
+    },
+    "in_ezzane" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In Ezzane"
+          }
+        }
+      }
+    },
+    "manzaz" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manzaz"
+          }
+        }
+      }
+    },
+    "nemours_nedroma" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nemours-Nedroma"
+          }
+        }
+      }
+    },
+    "tafna_beni_saf" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tafna Beni Saf"
+          }
+        }
+      }
+    },
+    "tahalra" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tahalra"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

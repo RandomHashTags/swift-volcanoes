@@ -1,0 +1,72 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "beerenberg" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beerenberg"
+          }
+        }
+      }
+    },
+    "lars_christensen_peak" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lars Christensen Peak"
+          }
+        }
+      }
+    },
+    "olavtoppen" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olavtoppen"
+          }
+        }
+      }
+    },
+    "sor_jan" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sør-Jan"
+          }
+        }
+      }
+    },
+    "sverrefjellet" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sverrefjellet"
+          }
+        }
+      }
+    },
+    "wilhelmplataet" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wilhelmplatået"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
