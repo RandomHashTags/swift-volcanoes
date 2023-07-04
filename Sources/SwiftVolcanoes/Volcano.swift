@@ -14,6 +14,7 @@ public protocol Volcano : CaseIterable, RawRepresentable where RawValue == Strin
     var country : Country { get }
     /// Countries where this Volcano is located in.
     var countries : [Country] { get }
+    /// SovereignStateSubdivisions where this Volcano is located in.
     var subdivisions : [any SovereignStateSubdivision] { get }
     var type : VolcanoType { get }
     var name : String { get }
@@ -39,7 +40,7 @@ public extension Country {
         case .norway:         return VolcanoesNorway.self
             
         case .united_states:  return VolcanoesUnitedStates.self
-        default: return nil
+        default:              return nil
         }
     }
 }
