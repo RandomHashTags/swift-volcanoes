@@ -18,12 +18,22 @@ public protocol Volcano : CaseIterable, RawRepresentable where RawValue == Strin
     var subdivisions : [any SovereignStateSubdivision] { get }
     var type : VolcanoType { get }
     var name : String { get }
+    
+    var wikipediaSlug : String? { get }
 }
 public extension Volcano {
     var name : String {
         let value:String.LocalizationValue = String.LocalizationValue(stringLiteral: rawValue)
         let table:String = String(describing: Swift.type(of: self))
         return String(localized: value, table: table, bundle: Bundle.module)
+    }
+    
+    var wikipediaSlug : String? {
+        return nil
+    }
+    var wikipediaURL : String? {
+        guard let slug:String = wikipediaSlug else { return nil }
+        return "https://wikpedia.org/wiki/" + slug
     }
 }
 

@@ -8,7 +8,7 @@
 import Foundation
 import SwiftSovereignStates
 
-// https://en.wikipedia.org/wiki/List_ofes_in_the_United_States
+// https://en.wikipedia.org/wiki/List_of_volcanoes_in_the_United_States
 // prefixed with the subdivision iso_alpha_2 for easier localization changes via the associated string catalog
 public enum VolcanoesUnitedStates : String, Volcano {
     // Alaska
