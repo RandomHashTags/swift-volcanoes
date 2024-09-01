@@ -23,9 +23,10 @@ public protocol Volcano : CaseIterable, RawRepresentable where RawValue == Strin
 }
 public extension Volcano {
     var name : String {
-        let value:String.LocalizationValue = String.LocalizationValue(stringLiteral: rawValue)
+        //let value:String.LocalizationValue = String.LocalizationValue(stringLiteral: rawValue)
         let table:String = String(describing: Swift.type(of: self))
-        return String(localized: value, table: table, bundle: Bundle.module)
+        //return String(localized: value, table: table, bundle: Bundle.module)*/
+        return table + "." + rawValue // TODO: Fix
     }
     
     var wikipediaSlug : String? {
